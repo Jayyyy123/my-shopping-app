@@ -1,0 +1,22 @@
+.homeFixedBoard .MuiSvgIcon-root {
+  padding: 10px;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeFixedFav,
+.homeFixedBasket {
+  display: flex;
+  background-color: lightcoral;
+  align-items: center;
+}
+
+.homeFixedFav span,
+.homeFixedBasket span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-right: 15px;
+  color: white;
+}

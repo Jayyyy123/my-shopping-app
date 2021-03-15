@@ -1,0 +1,16 @@
+.update img {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.update {
+  display: flex;
+  justify-content: space-around;
+}
+
+.update img:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+  background-color: black;
+}

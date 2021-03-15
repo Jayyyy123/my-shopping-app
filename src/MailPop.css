@@ -1,0 +1,131 @@
+.mailPop {
+  height: 500px;
+  width: 380px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
+  background-color: white;
+  position: relative;
+}
+
+.mailPop__top {
+  position: absolute;
+  height: 100px;
+  left: 0;
+  right: 0;
+  background-color: #52b788;
+}
+
+.mailPop__top .MuiSvgIcon-root {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.mailPop__top .MuiSvgIcon-root:hover {
+  color: black;
+  transition: 0.4s;
+}
+
+.mailPop__mid {
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.mailPop__midContent {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mailPop__midContent h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.mailPop__midInput {
+  display: flex;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mailPop__midInput input {
+  height: 30px;
+  border: none;
+  width: 100%;
+  outline: none;
+  border: 2px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.mailPop__midInput img {
+  width: 20px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.mailPop__midInput input[placeholder="Hi I would like to..."] {
+  margin-left: 10px;
+}
+
+.mailPop__midSocial {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailPop__midSocial img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.mailPop__socialIcon {
+  display: flex;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.mailPop__socialIcon h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.mailPop__socialIcon:nth-child(1):hover {
+  background-color: #83e377;
+  cursor: pointer;
+}
+
+.mailPop__socialIcon:nth-child(2):hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.mailPop__socialIcon:nth-child(3):hover {
+  background-color: #3a86ff;
+  cursor: pointer;
+}
+
+.mailPop__socialIcon:nth-child(4):hover {
+  background-color: #48cae4;
+  cursor: pointer;
+}
